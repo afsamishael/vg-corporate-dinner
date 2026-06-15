@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VitaGuard Corporate Dinner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <img src="logo.png" alt="VitaGuard Logo" class="logo">
+
+        <h3 class="brand">VITAGUARD</h3>
+
+        <p class="intro">
+            YOU ARE CORDIALLY INVITED TO OUR
+        </p>
+
+        <h1>Corporate Dinner</h1>
+
+        <div class="divider"></div>
+
+        <p class="description">
+            Join us for an evening of delightful conversations
+            and fine dining as we come together to celebrate
+            the spirit of our VG community.
+        </p>
+
+        <div class="details">
+
+            <div class="detail">
+                <span>DATE</span>
+                <p>27 June 2026</p>
+            </div>
+
+            <div class="detail">
+                <span>TIME</span>
+                <p>6:30 PM – 9:00 PM</p>
+            </div>
+
+            <div class="detail">
+                <span>VENUE</span>
+                <p>KPM Tripenta Hotel</p>
+            </div>
+
+        </div>
+
+        <button id="rsvpBtn">
+            CONFIRM ATTENDANCE
+        </button>
+
+    </div>
+
+</div>
+
+<div class="modal" id="modal">
+
+    <div class="modal-card" id="modalCard">
+
+        <span class="close-btn" id="closeBtn">&times;</span>
+
+        <h2>Confirm Attendance</h2>
+
+        <p>
+            We look forward to sharing this special evening with you.
+        </p>
+
+        <input
+            type="text"
+            id="guestName"
+            placeholder="Enter your full name"
+        >
+
+        <button id="submitBtn">
+            Submit
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
