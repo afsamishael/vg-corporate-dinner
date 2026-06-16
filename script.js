@@ -14,8 +14,17 @@ document
     const name =
     document.getElementById("guestName").value.trim();
 
-    if(!name){
-        alert("Please enter your name");
+    const phone =
+    document.getElementById("guestPhone").value.trim();
+
+    const email =
+    document.getElementById("guestEmail").value.trim();
+
+    const hospital =
+    document.getElementById("guestHospital").value.trim();
+
+    if(!name || !phone || !email || !hospital){
+        alert("Please fill all the fields");
         return;
     }
 
@@ -26,7 +35,10 @@ document
             method: "POST",
 
             body: JSON.stringify({
-                name: name
+                name,
+                phone,
+                email,
+                hospital
             })
 
         });
