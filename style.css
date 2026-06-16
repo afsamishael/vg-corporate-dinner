@@ -148,7 +148,7 @@ h1{
 .modal-card input{
     width:100%;
     padding:15px;
-    margin:25px 0;
+    margin:12px 0;
     border:1px solid #ddd;
     border-radius:10px;
 }
@@ -222,4 +222,8 @@ h1{
     color:#4B5563;
     line-height:1.8;
     margin-bottom:10px;
+}
+#submitBtn{
+    width:100%;
+    margin-top:12px;
 }
