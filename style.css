@@ -227,3 +227,13 @@ h1{
     width:100%;
     margin-top:12px;
 }
+.dress-code{
+    margin-top:40px;
+    color:#4B5563;
+    font-size:1rem;
+}
+
+.dress-code span{
+    color:#B08D57;
+    font-weight:600;
+}
